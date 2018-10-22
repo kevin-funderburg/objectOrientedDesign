@@ -7,7 +7,7 @@ Design and write a Java code that solves a quadratic equation 𝑎𝑥^2 + 𝑏�
 
 Let the roots of 𝑎𝑥+𝑏𝑥+𝑐=0 be 𝑝 and 𝑞.
 
-//TODO Show that the following:
+Show that the following:
 
 𝑝 + 𝑞 = − b/a , and
 

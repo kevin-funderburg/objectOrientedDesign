@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5509f72-919b-4ef5-8c7d-21092908c4a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/matrixOps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment1/out/production/assignment1/com/funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1/out/production/assignment1/com/funderburg/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/assignment2.1/com/funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment2.1/com/funderburg/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/funderburg/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/funderburg/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/funderburg/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/assignment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/assignment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm$Complex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm$Complex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm$Quadratic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm$Quadratic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment3/src/com.funderburg/QuadraticForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/QuadraticForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/src/com.funderburg/assignment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/assignment.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,14 +25,16 @@
     <session id="-518186091">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -67,10 +70,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/funderburg/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="116" column="35" lean-forward="true" selection-start-line="110" selection-end-line="116" selection-end-column="35" />
+            <state relative-caret-position="-1060">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-end-line="13" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1750#1751#0" expanded="true" />
                 <element signature="e#1797#1798#0" expanded="true" />
               </folding>
@@ -110,7 +112,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
+    <option name="width" value="834" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -119,8 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +143,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,18 +218,20 @@
       <workItem from="1540035205728" duration="419000" />
       <workItem from="1540081504749" duration="144000" />
       <workItem from="1540164427370" duration="654000" />
+      <workItem from="1540174841325" duration="12000" />
+      <workItem from="1540174920532" duration="6000" />
+      <workItem from="1540189622184" duration="919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8835000" />
+    <option name="totallyTimeSpent" value="9772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49285713" visible="true" weight="0.41269842" />
-      <window_info id="Structure" order="1" sideWeight="0.50714284" side_tool="true" visible="true" weight="0.41269842" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48979592" visible="true" weight="0.42735043" />
+      <window_info id="Structure" order="1" sideWeight="0.5102041" side_tool="true" visible="true" weight="0.42735043" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -286,10 +290,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/funderburg/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/funderburg/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="116" column="35" lean-forward="true" selection-start-line="110" selection-end-line="116" selection-end-column="35" />
+        <state relative-caret-position="-1060">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-end-line="13" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1750#1751#0" expanded="true" />
             <element signature="e#1797#1798#0" expanded="true" />
           </folding>

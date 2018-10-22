@@ -1,7 +1,25 @@
 -----------TEST CASES OUTPUT----------
-ORIGINAL LIST:		4 45 32 35 7 
-Reversed String:		7 35 32 45 4 
-ORIGINAL LIST:		28 12 25 27 47 
-Reversed String:		47 27 25 12 28 
-ORIGINAL LIST:		38 10 10 45 44 
-Reversed String:		44 45 10 10 38 
+ORIGINAL STRING:		abscacd
+Reversed String:		dcacsba
+[evens], [odds]:		asad, bcc
+Reversed Substrings:	dasa, ccb
+OUTPUT:					dasaccb
+---------------------------------------
+ORIGINAL STRING:		jsla;kdefj
+Reversed String:		jfedk;alsj
+[evens], [odds]:		jl;df, sakej
+Reversed Substrings:	fd;lj, jekas
+OUTPUT:					fd;ljjekas
+---------------------------------------
+ORIGINAL STRING:		ncnsla;eFASDH
+Reversed String:		HDSAFe;alsncn
+[evens], [odds]:		nnl;FSH, csaeAD
+Reversed Substrings:	HSF;lnn, DAeasc
+OUTPUT:					HSF;lnnDAeasc
+---------------------------------------
+ORIGINAL STRING:		jghsjcnBBBndk
+Reversed String:		kdnBBBncjshgj
+[evens], [odds]:		jhjnBnk, gscBBd
+Reversed Substrings:	knBnjhj, dBBcsg
+OUTPUT:					knBnjhjdBBcsg
+---------------------------------------
