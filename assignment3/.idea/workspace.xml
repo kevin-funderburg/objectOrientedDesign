@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0bd5ac2-9252-484c-8e81-8ce936a56800" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com.funderburg/matrixOutput.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/assignment3/com.funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com.funderburg/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm$Quadratic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm$Quadratic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/matrixOps$Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/matrixOps$Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/matrixOps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/matrixOps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.funderburg/QuadraticForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.funderburg/QuadraticForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com.funderburg/matrixOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.funderburg/matrixOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.funderburg/output.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +38,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Learning" value="1" />
-          <entry key="java" value="5675" />
+          <entry key="java" value="6078" />
           <entry key="txt" value="273" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5675" />
+          <entry key="JAVA" value="6078" />
           <entry key="PLAIN_TEXT" value="273" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -48,7 +55,7 @@
         <counts>
           <entry key="Learning" value="1" />
           <entry key="java" value="5" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -56,7 +63,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="5" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -76,13 +83,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com.funderburg/matrixOps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="912">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.funderburg/matrixOutput.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -93,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.funderburg/QuadraticForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="78" column="40" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+            <state relative-caret-position="805">
+              <caret line="120" column="5" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="120" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -120,9 +132,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/quadForm.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/Learning" />
-        <option value="$PROJECT_DIR$/src/com.funderburg/QuadraticForm.java" />
         <option value="$PROJECT_DIR$/src/com.funderburg/assignment.txt" />
         <option value="$PROJECT_DIR$/src/com.funderburg/output.txt" />
+        <option value="$PROJECT_DIR$/src/com.funderburg/QuadraticForm.java" />
+        <option value="$PROJECT_DIR$/src/com.funderburg/matrixOutput.txt" />
         <option value="$PROJECT_DIR$/src/com.funderburg/matrixOps.java" />
       </list>
     </option>
@@ -197,6 +210,11 @@
               <item name="assignment3" type="58d84e3e:PackageViewProjectNode" />
               <item name="assignment3" type="616d4139:PackageViewModuleNode" />
             </path>
+            <path>
+              <item name="assignment3" type="58d84e3e:PackageViewProjectNode" />
+              <item name="assignment3" type="616d4139:PackageViewModuleNode" />
+              <item name="com.funderburg" type="1f31426a:PackageElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540239552853" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540243574479" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -312,7 +330,7 @@
       <workItem from="1540161566653" duration="437000" />
       <workItem from="1540162134715" duration="6018000" />
       <workItem from="1540174842695" duration="10000" />
-      <workItem from="1540174921834" duration="29240000" />
+      <workItem from="1540174921834" duration="32933000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1539945904802</created>
@@ -346,14 +364,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45838000" />
+    <option name="totallyTimeSpent" value="49531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.26800978" />
-      <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" visible="true" weight="0.26800978" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.26800978" />
+      <window_info id="Structure" order="1" sideWeight="0.50102043" side_tool="true" visible="true" weight="0.26800978" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -362,7 +380,7 @@
       <window_info id="Learn" order="7" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4122449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,6 +415,18 @@
     <MESSAGE value="started matrix operations" />
     <option name="LAST_COMMIT_MESSAGE" value="started matrix operations" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com.funderburg/matrixOps.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
       <provider selected="true" editor-type-id="text-editor">
@@ -409,17 +439,6 @@
     <entry file="file://$PROJECT_DIR$/src/com.funderburg/input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.funderburg/QuadraticForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="78" column="40" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.funderburg/output.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -430,10 +449,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.funderburg/QuadraticForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="120" column="5" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="120" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.funderburg/matrixOutput.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.funderburg/matrixOps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="912">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

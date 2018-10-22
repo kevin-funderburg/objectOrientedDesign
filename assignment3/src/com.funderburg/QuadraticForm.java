@@ -28,11 +28,6 @@ public class QuadraticForm {
         }
     }
 
-//    public static class Discriminant {
-//
-//        Discriminant
-//    }
-
     public static class Quadratic {
         double p, q, discrim;
 
