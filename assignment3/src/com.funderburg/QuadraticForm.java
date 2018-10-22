@@ -35,12 +35,51 @@ public class QuadraticForm {
 
         Random rand = new Random();
 
-        int a = rand.nextInt(10 + 1);
-        int b = rand.nextInt(10 + 1);
-        int c = rand.nextInt(10 + 1);
+        double a = 7.0,
+                b = 10.0,
+                c = 2.0,
+                discrim = 0.0,
+                x;
+
+        a = 7; b = 10; c = 2;   // real & distinct
+        a = -4; b = 12; c = -9; // real & equal
+
+//        double a = rand.nextInt(10 + 1),
+//                b = rand.nextInt(10 + 1),
+//                c = rand.nextInt(10 + 1),
+//                x;
+
+        double p = 0.0, q = 0.0;
+
+        discrim = b * b - 4 * a * c;
+
+        if (discrim > 0) {
+
+            p = (-b + Math.sqrt(discrim)) / (2*a);
+            q = (-b - Math.sqrt(discrim)) / (2*a);
+
+            System.out.println("roots are real and unequal");
+        } else if (discrim == 0) {
+
+            p = (-b + Math.sqrt(discrim)) / (2*a);
+            System.out.println("roots are real and equal");
+
+        } else {
+            // complex
+            System.out.println("roots are imaginary");
+        }
+
+        double lhs1 = p + q;
+        double rhs1 = -(b / a);
+
+        double lhs2 = p * q;
+        double rhs2 = c / a;
 
 
-
+        if ((lhs1 == rhs1) && (lhs2 == rhs2)) {
+            System.out.println("cases have been proven");
+        } else
+            System.out.println("cases not proven");
 
     }
 }

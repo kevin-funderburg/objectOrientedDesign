@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b5304a-764d-4d42-843c-f37e3604d68d" name="Default Changelist" comment="" />
+    <list default="true" id="51b5304a-764d-4d42-843c-f37e3604d68d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment2.1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2.1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment2.1/out/production/assignment2.1/com/funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2.1/out/production/assignment2.1/com/funderburg/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment2.1/src/com/funderburg/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2.1/src/com/funderburg/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment2.1/src/com/funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2.1/src/com/funderburg/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/src/com.funderburg/QuadraticForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/QuadraticForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/src/com.funderburg/assignment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/assignment.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +68,13 @@
     <session id="-117311990">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -99,7 +111,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/funderburg/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
+            <state relative-caret-position="133">
               <caret line="97" column="44" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,6 +147,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -162,10 +177,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -229,11 +243,14 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,8 +273,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,16 +339,18 @@
       <workItem from="1539021417071" duration="764000" />
       <workItem from="1539024484381" duration="25000" />
       <workItem from="1539584787041" duration="467000" />
+      <workItem from="1540035157363" duration="47000" />
+      <workItem from="1540164403539" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43147000" />
+    <option name="totallyTimeSpent" value="43201000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16309012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14224665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -396,7 +413,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/funderburg/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
+        <state relative-caret-position="133">
           <caret line="97" column="44" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
