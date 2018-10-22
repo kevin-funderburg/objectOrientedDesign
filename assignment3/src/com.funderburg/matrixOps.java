@@ -1,3 +1,10 @@
+/***************************************************************************
+ * Kevin Funderburg
+ * CS 3354 - Programming Assignment 3 pt 2
+ * Matrix Operations
+ *
+ * Contents of matrixOps.java
+ *****************************************************************************/
 package com.funderburg;
 
 import java.io.FileWriter;
@@ -72,8 +79,6 @@ public class matrixOps {
             return prod;
         }
     }
-
-
 
     public static void main(String [] args) {
         String currDir = "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Object Oriented Design/Projects/assignment3/src/com.funderburg/";
@@ -152,5 +157,4 @@ public class matrixOps {
             }
         }
     }
-
 }

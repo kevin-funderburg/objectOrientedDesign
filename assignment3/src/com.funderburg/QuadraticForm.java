@@ -1,6 +1,6 @@
 /***************************************************************************
  * Kevin Funderburg
- * CS 3354 - Programming Assignment 2
+ * CS 3354 - Programming Assignment 3 pt 1
  * Quadratic Formula
  *
  * Contents of QuadraticForm.java
