@@ -1,85 +1,128 @@
+/***************************************************************************
+ * Kevin Funderburg
+ * CS 3354 - Programming Assignment 2
+ * Quadratic Formula
+ *
+ * Contents of QuadraticForm.java
+ *****************************************************************************/
+
 package com.funderburg;
 
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.lang.Math;
-import java.util.Random;
 
 public class QuadraticForm {
 
-    class CalculateQ {
-        // Will be solving for formula ax^2 + bx + c = 0
+    public static class Complex {
+        double real, imaginary;
 
-//        int a, b, c, x;
-//        Discriminant d = new Discriminant(a,b,c);
-//
-//
-//        double p = b + Math.sqrt(d);
-//        double q = b - Math.sqrt(d);
-
-
-
-//        class int Discriminant(a,b,c) {
-//            int i = b^2 - 4 * a * c;
-//            return i;
-//        }
-        // take left side and compare to right side and determine if true or false
-    }
-
-
-    public static void main(String [] args) {
-        String currDir = "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Object Oriented Design/Projects/assignment2.1/src/com/funderburg/",
-                inPath = currDir + "input.txt",
-                outPath = currDir + "output.txt",
-                output = "",
-                str = "";
-
-        Random rand = new Random();
-
-        double a = 7.0,
-                b = 10.0,
-                c = 2.0,
-                discrim = 0.0,
-                x;
-
-        a = 7; b = 10; c = 2;   // real & distinct
-        a = -4; b = 12; c = -9; // real & equal
-
-//        double a = rand.nextInt(10 + 1),
-//                b = rand.nextInt(10 + 1),
-//                c = rand.nextInt(10 + 1),
-//                x;
-
-        double p = 0.0, q = 0.0;
-
-        discrim = b * b - 4 * a * c;
-
-        if (discrim > 0) {
-
-            p = (-b + Math.sqrt(discrim)) / (2*a);
-            q = (-b - Math.sqrt(discrim)) / (2*a);
-
-            System.out.println("roots are real and unequal");
-        } else if (discrim == 0) {
-
-            p = (-b + Math.sqrt(discrim)) / (2*a);
-            System.out.println("roots are real and equal");
-
-        } else {
-            // complex
-            System.out.println("roots are imaginary");
+        public Complex() {
+            real = 0.0;
+            imaginary = 0.0;
         }
 
-        double lhs1 = p + q;
-        double rhs1 = -(b / a);
-
-        double lhs2 = p * q;
-        double rhs2 = c / a;
-
-
-        if ((lhs1 == rhs1) && (lhs2 == rhs2)) {
-            System.out.println("cases have been proven");
-        } else
-            System.out.println("cases not proven");
-
+        private Complex(double r, double i) {
+            real = r;
+            imaginary = i;
+        }
     }
+
+//    public static class Discriminant {
+//
+//        Discriminant
+//    }
+
+    public static class Quadratic {
+        double p, q, discrim;
+
+        Quadratic() {
+            p = 0.0;
+            q = 0.0;
+            discrim = 0.0;
+        }
+
+        public Quadratic(double a, double b, double c) {
+            discrim = b * b - 4 * a * c;
+
+            if (discrim > 0) {
+                p = (-b + Math.sqrt(discrim)) / (2 * a);
+                q = (-b - Math.sqrt(discrim)) / (2 * a);
+            } else if (discrim == 0) {
+                p = q = (-b + Math.sqrt(discrim)) / (2 * a);
+            } else {
+                int i = -1;
+                double realPart = (-b / 2 * a);
+                double imaginary = (Math.sqrt(discrim * i) / (2 * a));
+
+                Complex temp = new Complex(realPart, imaginary);
+                p = temp.real + temp.imaginary;
+                q = temp.real - temp.imaginary;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        String currDir = "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Object Oriented Design/Projects/assignment3/src/com.funderburg/";
+        String inPath = currDir + "input.txt";
+        String outPath = currDir + "output.txt";
+
+        double a = 0, b = 0, c = 0;
+        try (FileWriter fw = new FileWriter(outPath))
+        {
+            fw.write("-----------TEST CASES OUTPUT----------\n");
+            for (int i = 0; i < 3; i++)
+            {
+                if (i == 0) {
+                    a = 7;
+                    b = 10;
+                    c = 2;   // real & distinct
+                } else if (i == 1) {
+                    a = -4;
+                    b = 12;
+                    c = -9; // real & equal
+                } else {
+                    a = 2.3;
+                    b = 4;
+                    c = 5.6; // imaginary & distinct
+                }
+
+                fw.write("\n=============================\n");
+                fw.write("====        CASE " + (i + 1) + "       ====\n");
+                fw.write("=============================\n");
+                fw.write("a is " + a + "\nb is " + b + "\nc is " + c + "\n");
+
+                Quadratic quad = new Quadratic(a, b, c);
+
+                if (quad.discrim > 0)
+                    fw.write("Roots are real and distinct\n");
+                else if (quad.discrim == 0)
+                    fw.write("Roots are real and equal\n");
+                else
+                    fw.write("Roots are complex and distinct\n");
+
+
+                double lhs1 = quad.p + quad.q;
+                double rhs1 = -(b / a);
+
+                double lhs2 = quad.p * quad.q;
+                double rhs2 = c / a;
+
+                if (lhs1 == rhs1)
+                    fw.write("\nDoes p + q == -(b / a)? " + true);
+                else
+                    fw.write("\nDoes p + q == -(b / a)? " + false);
+
+                if (lhs2 == rhs2)
+                    fw.write("\nDoes p * q == c/a? " + true);
+                else
+                    fw.write("\nDoes p * q == c/a? " + false);
+
+                fw.write("\n");
+            }
+        } catch (IOException exc) {
+            System.out.println("I/O error" + exc);
+        }
+    }
+
 }
