@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0bd5ac2-9252-484c-8e81-8ce936a56800" name="Default Changelist" comment="updated if elses">
-      <change afterPath="$PROJECT_DIR$/src/com.funderburg/matrixOps.java" afterDir="false" />
+    <list default="true" id="e0bd5ac2-9252-484c-8e81-8ce936a56800" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment1/out/production/assignment1/com/funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1/out/production/assignment1/com/funderburg/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/assignment3/com.funderburg/assignment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com.funderburg/assignment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/assignment3/com.funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com.funderburg/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm$Complex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm$Complex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm$Quadratic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm$Quadratic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment3/com/funderburg/QuadraticForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.funderburg/assignment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.funderburg/assignment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.funderburg/matrixOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.funderburg/matrixOps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,14 +31,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Learning" value="1" />
-          <entry key="java" value="4243" />
-          <entry key="txt" value="246" />
+          <entry key="java" value="5675" />
+          <entry key="txt" value="273" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4243" />
-          <entry key="PLAIN_TEXT" value="246" />
+          <entry key="JAVA" value="5675" />
+          <entry key="PLAIN_TEXT" value="273" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -82,12 +76,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com.funderburg/matrixOps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="1152">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,11 +197,6 @@
               <item name="assignment3" type="58d84e3e:PackageViewProjectNode" />
               <item name="assignment3" type="616d4139:PackageViewModuleNode" />
             </path>
-            <path>
-              <item name="assignment3" type="58d84e3e:PackageViewProjectNode" />
-              <item name="assignment3" type="616d4139:PackageViewModuleNode" />
-              <item name="com.funderburg" type="1f31426a:PackageElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -242,9 +229,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540192967451" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540239552853" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -259,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuadraticForm">
+  <component name="RunManager" selected="Application.matrixOps">
     <configuration name="QuadraticForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.funderburg.QuadraticForm" />
       <module name="assignment3" />
@@ -300,8 +290,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuadraticForm" />
         <item itemvalue="Application.matrixOps" />
+        <item itemvalue="Application.QuadraticForm" />
         <item itemvalue="Application.quadForm" />
       </list>
     </recent_temporary>
@@ -322,7 +312,7 @@
       <workItem from="1540161566653" duration="437000" />
       <workItem from="1540162134715" duration="6018000" />
       <workItem from="1540174842695" duration="10000" />
-      <workItem from="1540174921834" duration="17379000" />
+      <workItem from="1540174921834" duration="29240000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1539945904802</created>
@@ -345,16 +335,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540168323668</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="started matrix operations">
+      <created>1540193029955</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540193029956</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33977000" />
+    <option name="totallyTimeSpent" value="45838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.26800978" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.26800978" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" visible="true" weight="0.26800978" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -364,7 +362,7 @@
       <window_info id="Learn" order="7" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4122449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +394,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="editing main" />
     <MESSAGE value="updated if elses" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated if elses" />
+    <MESSAGE value="started matrix operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="started matrix operations" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
@@ -433,12 +432,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.funderburg/matrixOps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="1152">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -446,6 +443,77 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>assignment3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
