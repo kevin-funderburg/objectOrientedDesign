@@ -22,6 +22,7 @@ Roots are real and equal
 Does p + q == -(b / a)? true
 Does p * q == c/a? true
 
+
 =============================
 ====        CASE 3       ====
 =============================
