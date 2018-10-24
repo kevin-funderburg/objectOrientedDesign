@@ -85,7 +85,7 @@ public class matrixOps {
         String outPath = currDir + "matrixOutput.txt";
         File file = new File(outPath);
         FileWriter fr = null;
-        // Testing git ignore
+
         try
         {
             fr = new FileWriter(file, true);
