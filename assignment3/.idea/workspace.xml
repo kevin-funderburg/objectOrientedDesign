@@ -4,10 +4,6 @@
     <list default="true" id="e0bd5ac2-9252-484c-8e81-8ce936a56800" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.funderburg/QuadraticForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.funderburg/QuadraticForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.funderburg/matrixOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.funderburg/matrixOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.funderburg/matrixOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.funderburg/matrixOutput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.funderburg/output.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +16,7 @@
     <session id="-313825494">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
@@ -90,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com.funderburg/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="400">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -246,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540245661095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540247683719" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -329,7 +325,7 @@
       <workItem from="1540161566653" duration="437000" />
       <workItem from="1540162134715" duration="6018000" />
       <workItem from="1540174842695" duration="10000" />
-      <workItem from="1540174921834" duration="34981000" />
+      <workItem from="1540174921834" duration="35019000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1539945904802</created>
@@ -363,13 +359,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51579000" />
+    <option name="totallyTimeSpent" value="51617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.26800978" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.26800978" />
       <window_info id="Structure" order="1" sideWeight="0.50102043" side_tool="true" weight="0.26800978" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -379,12 +375,12 @@
       <window_info id="Learn" order="7" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4122449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993895" weight="0.40816328" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4993895" visible="true" weight="0.40816328" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50061053" side_tool="true" weight="0.40855616" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -504,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.funderburg/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="400">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>

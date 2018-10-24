@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b5304a-764d-4d42-843c-f37e3604d68d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/matrixOps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/assignment1/com/funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assignment1/com/funderburg/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/assignment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/assignment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm$Complex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm$Complex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm$Quadratic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm$Quadratic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/QuadraticForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment3/src/com.funderburg/assignment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/assignment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/matrixOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com.funderburg/matrixOutput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/matrixOps$Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/matrixOps$Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/matrixOps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/out/production/assignment3/com/funderburg/matrixOps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/src/com.funderburg/QuadraticForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/QuadraticForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/src/com.funderburg/matrixOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/matrixOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/src/com.funderburg/matrixOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/matrixOutput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/src/com.funderburg/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/src/com.funderburg/output.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +24,7 @@
     <session id="79201514">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.150" value="1" />
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/funderburg/StringManip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="e#0#2384#0" expanded="true" />
               </folding>
@@ -254,7 +253,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540192967466" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540244028648" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -313,15 +312,16 @@
       <workItem from="1539636571811" duration="178000" />
       <workItem from="1539655796184" duration="90000" />
       <workItem from="1540082874097" duration="21000" />
-      <workItem from="1540179571084" duration="1499000" />
+      <workItem from="1540179571084" duration="1558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41067000" />
+    <option name="totallyTimeSpent" value="41126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3003663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -333,7 +333,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/funderburg/StringManip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="325">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="e#0#2384#0" expanded="true" />
           </folding>
