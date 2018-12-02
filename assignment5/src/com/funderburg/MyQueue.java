@@ -128,7 +128,9 @@ public class MyQueue {
             busyTime = (rand.nextInt(15) + 1) * 60;
 
             // Reduce busy time by 1 minute if queues are getting too big
-            if (queueA.size() > 5 || queueB.size() > 5) { busyTime -= 60; }
+            if (queueA.size() > 5 || queueB.size() > 5) {
+                busyTime -= 60;
+            }
 
             // Calculate total processing time for person in first queue
             times[i] = times[i] + busyTime;
@@ -148,7 +150,9 @@ public class MyQueue {
             busyTime = (rand.nextInt(15) + 1) * 60;
 
             // Reduce busy time by 1 minute if queues are getting too big
-            if (queueC.size() > 5) { busyTime -= 60; }
+            if (queueC.size() > 5) {
+                busyTime -= 60;
+            }
 
             times[i] = times[i] + busyTime;     // Calculate total processing time for person
 
