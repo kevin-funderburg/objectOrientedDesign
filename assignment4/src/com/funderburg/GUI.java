@@ -1,3 +1,18 @@
+/***************************************************************************
+ * Kevin Funderburg
+ * CS 3354 - Programming Assignment 4
+ * GUI Calendar
+ *
+ * Contents of GUI.java
+ ***************************************************************************/
+
+/**
+ * I unfortunately could not dedicate the time I would normally do for this part of the project due
+ * to some medical issues with my wife. She had a difficult surgery recently and between dedicating
+ * time to her and work I just couldn’t finish this one up like I would normally.
+ * I figured it would be best to email you what I had to avoid any continuing late deductions.
+ */
+
 package com.funderburg;
 
 import javax.swing.*;
@@ -20,9 +35,6 @@ public class GUI extends JPanel {
     public GUI() {
         super(new GridLayout(1,0));
 
-//        JTextField textField = new JTextField(10);
-//        textField.setActionCommand("someting");
-//        textField.addActionListener(this);
 
         String[] columnNames = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 
