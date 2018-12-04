@@ -1,0 +1,324 @@
+*****************************************
+************** TEST CASE 1 **************
+*****************************************
+[MyQueue] start-time = 1543883803653
+[MyQueue] person 1 arrived at queue [A] at 0.0
+[MyQueue] person 2 arrived at queue [A] at 11.0
+[MyQueue] person 3 arrived at queue [A] at 1.0
+[MyQueue] person 4 arrived at queue [A] at 11.0
+[MyQueue] person 5 arrived at queue [A] at 8.0
+[MyQueue] person 6 arrived at queue [A] at 13.0
+[MyQueue] person 7 arrived at queue [A] at 9.0
+[MyQueue] person 8 arrived at queue [A] at 10.0
+[MyQueue] person 9 arrived at queue [A] at 12.0
+[MyQueue] person 10 arrived at queue [A] at 2.0
+[MyQueue] person 11 arrived at queue [A] at 1.0
+[MyQueue] person 12 arrived at queue [A] at 14.0
+[MyQueue] person 13 arrived at queue [A] at 14.0
+[MyQueue] person 14 arrived at queue [A] at 10.0
+[MyQueue] person 15 arrived at queue [A] at 3.0
+[MyQueue] person 16 arrived at queue [A] at 4.0
+[MyQueue] person 17 arrived at queue [A] at 9.0
+[MyQueue] person 18 arrived at queue [A] at 11.0
+[MyQueue] person 19 arrived at queue [A] at 6.0
+[MyQueue] person 20 arrived at queue [A] at 6.0
+[MyQueue] person 21 arrived at queue [A] at 4.0
+[MyQueue] person 22 arrived at queue [A] at 14.0
+[MyQueue] person 23 arrived at queue [A] at 12.0
+[MyQueue] person 24 arrived at queue [A] at 11.0
+[MyQueue] person 25 arrived at queue [A] at 8.0
+[MyQueue] person 26 arrived at queue [A] at 10.0
+[MyQueue] person 27 arrived at queue [A] at 13.0
+[MyQueue] person 28 arrived at queue [A] at 1.0
+[MyQueue] person 29 arrived at queue [A] at 4.0
+[MyQueue] person 30 arrived at queue [A] at 12.0
+[MyQueue] person 31 arrived at queue [A] at 3.0
+[MyQueue] person 32 arrived at queue [A] at 10.0
+[MyQueue] person 33 arrived at queue [A] at 15.0
+[MyQueue] person 34 arrived at queue [A] at 7.0
+[MyQueue] person 35 arrived at queue [A] at 9.0
+[MyQueue] person 36 arrived at queue [A] at 15.0
+[MyQueue] person 37 arrived at queue [A] at 10.0
+[MyQueue] person 38 arrived at queue [B] at 12.0
+[MyQueue] person 39 arrived at queue [B] at 12.0
+[MyQueue] person 40 arrived at queue [B] at 12.0
+[MyQueue] person 41 arrived at queue [B] at 15.0
+[MyQueue] person 42 arrived at queue [B] at 1.0
+[MyQueue] person 43 arrived at queue [B] at 15.0
+[MyQueue] person 44 arrived at queue [B] at 8.0
+[MyQueue] person 45 arrived at queue [B] at 7.0
+[MyQueue] person 46 arrived at queue [B] at 4.0
+[MyQueue] person 47 arrived at queue [B] at 3.0
+[MyQueue] person 48 arrived at queue [B] at 12.0
+[MyQueue] person 49 arrived at queue [B] at 11.0
+[MyQueue] person 50 arrived at queue [B] at 9.0
+[MyQueue] person 1 arrived at queue [C] at 360.0
+[MyQueue] person 2 arrived at queue [C] at 71.0
+[MyQueue] person 3 arrived at queue [C] at 241.0
+[MyQueue] person 4 arrived at queue [C] at 11.0
+[MyQueue] person 5 arrived at queue [C] at 728.0
+[MyQueue] person 6 arrived at queue [C] at 373.0
+[MyQueue] person 7 arrived at queue [C] at 489.0
+[MyQueue] person 8 arrived at queue [C] at 550.0
+[MyQueue] person 9 arrived at queue [C] at 192.0
+[MyQueue] person 10 arrived at queue [C] at 362.0
+[MyQueue] person 11 arrived at queue [C] at 301.0
+[MyQueue] person 12 arrived at queue [C] at 674.0
+[MyQueue] person 13 arrived at queue [C] at 374.0
+[MyQueue] person 14 arrived at queue [C] at 430.0
+[MyQueue] person 15 arrived at queue [C] at 843.0
+[MyQueue] person 16 arrived at queue [C] at 604.0
+[MyQueue] person 17 arrived at queue [C] at 129.0
+[MyQueue] person 18 arrived at queue [C] at 191.0
+[MyQueue] person 19 arrived at queue [C] at 246.0
+[MyQueue] person 20 arrived at queue [C] at 846.0
+[MyQueue] person 21 arrived at queue [C] at 244.0
+[MyQueue] person 22 arrived at queue [C] at 674.0
+[MyQueue] person 23 arrived at queue [C] at 792.0
+[MyQueue] person 24 arrived at queue [C] at 671.0
+[MyQueue] person 25 arrived at queue [C] at 188.0
+[MyQueue] person 26 arrived at queue [C] at 790.0
+[MyQueue] person 27 arrived at queue [C] at 373.0
+[MyQueue] person 28 arrived at queue [C] at 841.0
+[MyQueue] person 29 arrived at queue [C] at 844.0
+[MyQueue] person 30 arrived at queue [C] at 372.0
+[MyQueue] person 31 arrived at queue [C] at 603.0
+[MyQueue] person 32 arrived at queue [C] at 790.0
+[MyQueue] person 33 arrived at queue [C] at 735.0
+[MyQueue] person 34 arrived at queue [C] at 787.0
+[MyQueue] person 35 arrived at queue [C] at 189.0
+[MyQueue] person 36 arrived at queue [C] at 495.0
+[MyQueue] person 37 arrived at queue [C] at 850.0
+[MyQueue] person 38 arrived at queue [C] at 132.0
+[MyQueue] person 39 arrived at queue [C] at 12.0
+[MyQueue] person 40 arrived at queue [C] at 132.0
+[MyQueue] person 41 arrived at queue [C] at 255.0
+[MyQueue] person 42 arrived at queue [C] at 61.0
+[MyQueue] person 43 arrived at queue [C] at 195.0
+[MyQueue] person 44 arrived at queue [C] at 488.0
+[MyQueue] person 45 arrived at queue [C] at 847.0
+[MyQueue] person 46 arrived at queue [C] at 604.0
+[MyQueue] person 47 arrived at queue [C] at 363.0
+[MyQueue] person 48 arrived at queue [C] at 432.0
+[MyQueue] person 49 arrived at queue [C] at 911.0
+[MyQueue] person 50 arrived at queue [C] at 129.0
+[MyQueue] person 1 finished processing at 540.0
+[MyQueue] person 2 finished processing at 311.0
+[MyQueue] person 3 finished processing at 241.0
+[MyQueue] person 4 finished processing at 11.0
+[MyQueue] person 5 finished processing at 848.0
+[MyQueue] person 6 finished processing at 853.0
+[MyQueue] person 7 finished processing at 1269.0
+[MyQueue] person 8 finished processing at 1210.0
+[MyQueue] person 9 finished processing at 972.0
+[MyQueue] person 10 finished processing at 962.0
+[MyQueue] person 11 finished processing at 1021.0
+[MyQueue] person 12 finished processing at 1514.0
+[MyQueue] person 13 finished processing at 914.0
+[MyQueue] person 14 finished processing at 910.0
+[MyQueue] person 15 finished processing at 1323.0
+[MyQueue] person 16 finished processing at 1264.0
+[MyQueue] person 17 finished processing at 189.0
+[MyQueue] person 18 finished processing at 251.0
+[MyQueue] person 19 finished processing at 1026.0
+[MyQueue] person 20 finished processing at 1446.0
+[MyQueue] person 21 finished processing at 424.0
+[MyQueue] person 22 finished processing at 914.0
+[MyQueue] person 23 finished processing at 912.0
+[MyQueue] person 24 finished processing at 1211.0
+[MyQueue] person 25 finished processing at 788.0
+[MyQueue] person 26 finished processing at 1030.0
+[MyQueue] person 27 finished processing at 433.0
+[MyQueue] person 28 finished processing at 1621.0
+[MyQueue] person 29 finished processing at 1144.0
+[MyQueue] person 30 finished processing at 1212.0
+[MyQueue] person 31 finished processing at 1023.0
+[MyQueue] person 32 finished processing at 1150.0
+[MyQueue] person 33 finished processing at 1335.0
+[MyQueue] person 34 finished processing at 1507.0
+[MyQueue] person 35 finished processing at 849.0
+[MyQueue] person 36 finished processing at 975.0
+[MyQueue] person 37 finished processing at 1270.0
+[MyQueue] person 38 finished processing at 912.0
+[MyQueue] person 39 finished processing at 492.0
+[MyQueue] person 40 finished processing at 1032.0
+[MyQueue] person 41 finished processing at 1035.0
+[MyQueue] person 42 finished processing at 661.0
+[MyQueue] person 43 finished processing at 735.0
+[MyQueue] person 44 finished processing at 728.0
+[MyQueue] person 45 finished processing at 1687.0
+[MyQueue] person 46 finished processing at 1204.0
+[MyQueue] person 47 finished processing at 783.0
+[MyQueue] person 48 finished processing at 1272.0
+[MyQueue] person 49 finished processing at 1151.0
+[MyQueue] person 50 finished processing at 909.0
+[MyQueue] total process-time = 47474.0
+[MyQueue] end-time = 1543931277653
+[MyQueue] time taken = 47474000
+
+*****************************************
+************** TEST CASE 2 **************
+*****************************************
+[MyQueue] start-time = 1543883803699
+[MyQueue] person 1 arrived at queue [A] at 0.0
+[MyQueue] person 2 arrived at queue [A] at 4.0
+[MyQueue] person 3 arrived at queue [A] at 13.0
+[MyQueue] person 4 arrived at queue [A] at 9.0
+[MyQueue] person 5 arrived at queue [A] at 5.0
+[MyQueue] person 6 arrived at queue [A] at 1.0
+[MyQueue] person 7 arrived at queue [A] at 1.0
+[MyQueue] person 8 arrived at queue [A] at 5.0
+[MyQueue] person 9 arrived at queue [A] at 13.0
+[MyQueue] person 10 arrived at queue [A] at 3.0
+[MyQueue] person 11 arrived at queue [A] at 3.0
+[MyQueue] person 12 arrived at queue [A] at 8.0
+[MyQueue] person 13 arrived at queue [A] at 6.0
+[MyQueue] person 14 arrived at queue [A] at 6.0
+[MyQueue] person 15 arrived at queue [A] at 1.0
+[MyQueue] person 16 arrived at queue [B] at 11.0
+[MyQueue] person 17 arrived at queue [B] at 6.0
+[MyQueue] person 18 arrived at queue [B] at 7.0
+[MyQueue] person 19 arrived at queue [B] at 9.0
+[MyQueue] person 20 arrived at queue [B] at 4.0
+[MyQueue] person 1 arrived at queue [C] at 540.0
+[MyQueue] person 2 arrived at queue [C] at 364.0
+[MyQueue] person 3 arrived at queue [C] at 373.0
+[MyQueue] person 4 arrived at queue [C] at 309.0
+[MyQueue] person 5 arrived at queue [C] at 605.0
+[MyQueue] person 6 arrived at queue [C] at 421.0
+[MyQueue] person 7 arrived at queue [C] at 781.0
+[MyQueue] person 8 arrived at queue [C] at 785.0
+[MyQueue] person 9 arrived at queue [C] at 793.0
+[MyQueue] person 10 arrived at queue [C] at 843.0
+[MyQueue] person 11 arrived at queue [C] at 123.0
+[MyQueue] person 12 arrived at queue [C] at 788.0
+[MyQueue] person 13 arrived at queue [C] at 546.0
+[MyQueue] person 14 arrived at queue [C] at 246.0
+[MyQueue] person 15 arrived at queue [C] at 481.0
+[MyQueue] person 16 arrived at queue [C] at 11.0
+[MyQueue] person 17 arrived at queue [C] at 486.0
+[MyQueue] person 18 arrived at queue [C] at 727.0
+[MyQueue] person 19 arrived at queue [C] at 549.0
+[MyQueue] person 20 arrived at queue [C] at 784.0
+[MyQueue] person 1 finished processing at 1140.0
+[MyQueue] person 2 finished processing at 364.0
+[MyQueue] person 3 finished processing at 673.0
+[MyQueue] person 4 finished processing at 1029.0
+[MyQueue] person 5 finished processing at 1385.0
+[MyQueue] person 6 finished processing at 961.0
+[MyQueue] person 7 finished processing at 1261.0
+[MyQueue] person 8 finished processing at 1085.0
+[MyQueue] person 9 finished processing at 1513.0
+[MyQueue] person 10 finished processing at 1443.0
+[MyQueue] person 11 finished processing at 783.0
+[MyQueue] person 12 finished processing at 1508.0
+[MyQueue] person 13 finished processing at 906.0
+[MyQueue] person 14 finished processing at 546.0
+[MyQueue] person 15 finished processing at 1081.0
+[MyQueue] person 16 finished processing at 551.0
+[MyQueue] person 17 finished processing at 726.0
+[MyQueue] person 18 finished processing at 967.0
+[MyQueue] person 19 finished processing at 969.0
+[MyQueue] person 20 finished processing at 1504.0
+[MyQueue] total process-time = 20395.0
+[MyQueue] end-time = 1543904198699
+[MyQueue] time taken = 20395000
+
+*****************************************
+************** TEST CASE 3 **************
+*****************************************
+[MyQueue] start-time = 1543883803701
+[MyQueue] person 1 arrived at queue [A] at 0.0
+[MyQueue] person 2 arrived at queue [A] at 6.0
+[MyQueue] person 3 arrived at queue [A] at 11.0
+[MyQueue] person 4 arrived at queue [A] at 8.0
+[MyQueue] person 5 arrived at queue [A] at 14.0
+[MyQueue] person 6 arrived at queue [A] at 9.0
+[MyQueue] person 7 arrived at queue [A] at 12.0
+[MyQueue] person 8 arrived at queue [A] at 14.0
+[MyQueue] person 9 arrived at queue [A] at 13.0
+[MyQueue] person 10 arrived at queue [A] at 11.0
+[MyQueue] person 11 arrived at queue [A] at 4.0
+[MyQueue] person 12 arrived at queue [A] at 12.0
+[MyQueue] person 13 arrived at queue [A] at 2.0
+[MyQueue] person 14 arrived at queue [A] at 11.0
+[MyQueue] person 15 arrived at queue [A] at 7.0
+[MyQueue] person 16 arrived at queue [A] at 8.0
+[MyQueue] person 17 arrived at queue [A] at 2.0
+[MyQueue] person 18 arrived at queue [A] at 4.0
+[MyQueue] person 19 arrived at queue [A] at 6.0
+[MyQueue] person 20 arrived at queue [A] at 11.0
+[MyQueue] person 21 arrived at queue [A] at 5.0
+[MyQueue] person 22 arrived at queue [A] at 3.0
+[MyQueue] person 23 arrived at queue [B] at 11.0
+[MyQueue] person 24 arrived at queue [B] at 11.0
+[MyQueue] person 25 arrived at queue [B] at 12.0
+[MyQueue] person 26 arrived at queue [B] at 8.0
+[MyQueue] person 27 arrived at queue [B] at 13.0
+[MyQueue] person 28 arrived at queue [B] at 5.0
+[MyQueue] person 29 arrived at queue [B] at 12.0
+[MyQueue] person 30 arrived at queue [B] at 8.0
+[MyQueue] person 1 arrived at queue [C] at 120.0
+[MyQueue] person 2 arrived at queue [C] at 246.0
+[MyQueue] person 3 arrived at queue [C] at 611.0
+[MyQueue] person 4 arrived at queue [C] at 8.0
+[MyQueue] person 5 arrived at queue [C] at 14.0
+[MyQueue] person 6 arrived at queue [C] at 189.0
+[MyQueue] person 7 arrived at queue [C] at 732.0
+[MyQueue] person 8 arrived at queue [C] at 794.0
+[MyQueue] person 9 arrived at queue [C] at 793.0
+[MyQueue] person 10 arrived at queue [C] at 851.0
+[MyQueue] person 11 arrived at queue [C] at 124.0
+[MyQueue] person 12 arrived at queue [C] at 852.0
+[MyQueue] person 13 arrived at queue [C] at 422.0
+[MyQueue] person 14 arrived at queue [C] at 731.0
+[MyQueue] person 15 arrived at queue [C] at 667.0
+[MyQueue] person 16 arrived at queue [C] at 608.0
+[MyQueue] person 17 arrived at queue [C] at 722.0
+[MyQueue] person 18 arrived at queue [C] at 784.0
+[MyQueue] person 19 arrived at queue [C] at 786.0
+[MyQueue] person 20 arrived at queue [C] at 731.0
+[MyQueue] person 21 arrived at queue [C] at 905.0
+[MyQueue] person 22 arrived at queue [C] at 303.0
+[MyQueue] person 23 arrived at queue [C] at 251.0
+[MyQueue] person 24 arrived at queue [C] at 431.0
+[MyQueue] person 25 arrived at queue [C] at 852.0
+[MyQueue] person 26 arrived at queue [C] at 428.0
+[MyQueue] person 27 arrived at queue [C] at 613.0
+[MyQueue] person 28 arrived at queue [C] at 845.0
+[MyQueue] person 29 arrived at queue [C] at 252.0
+[MyQueue] person 30 arrived at queue [C] at 128.0
+[MyQueue] person 1 finished processing at 960.0
+[MyQueue] person 2 finished processing at 246.0
+[MyQueue] person 3 finished processing at 1091.0
+[MyQueue] person 4 finished processing at 668.0
+[MyQueue] person 5 finished processing at 674.0
+[MyQueue] person 6 finished processing at 609.0
+[MyQueue] person 7 finished processing at 1572.0
+[MyQueue] person 8 finished processing at 1274.0
+[MyQueue] person 9 finished processing at 1453.0
+[MyQueue] person 10 finished processing at 1691.0
+[MyQueue] person 11 finished processing at 184.0
+[MyQueue] person 12 finished processing at 1392.0
+[MyQueue] person 13 finished processing at 1082.0
+[MyQueue] person 14 finished processing at 1451.0
+[MyQueue] person 15 finished processing at 907.0
+[MyQueue] person 16 finished processing at 1388.0
+[MyQueue] person 17 finished processing at 782.0
+[MyQueue] person 18 finished processing at 1444.0
+[MyQueue] person 19 finished processing at 1026.0
+[MyQueue] person 20 finished processing at 971.0
+[MyQueue] person 21 finished processing at 1385.0
+[MyQueue] person 22 finished processing at 903.0
+[MyQueue] person 23 finished processing at 851.0
+[MyQueue] person 24 finished processing at 1031.0
+[MyQueue] person 25 finished processing at 972.0
+[MyQueue] person 26 finished processing at 1148.0
+[MyQueue] person 27 finished processing at 1513.0
+[MyQueue] person 28 finished processing at 1085.0
+[MyQueue] person 29 finished processing at 852.0
+[MyQueue] person 30 finished processing at 968.0
+[MyQueue] total process-time = 31573.0
+[MyQueue] end-time = 1543915376701
+[MyQueue] time taken = 31573000
+

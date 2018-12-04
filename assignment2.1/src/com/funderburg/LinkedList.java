@@ -129,7 +129,7 @@ public class LinkedList<AnyType> implements Iterable<AnyType>
         }
 
         try (FileWriter fw = new FileWriter(outPath)) {
-            fw.wri  ttte("-------------TEST CASES OUTPUT------------\n\n");
+            fw.write("-------------TEST CASES OUTPUT------------\n\n");
             fw.write(output);
             fw.write("------------------------------------------\n");
         } catch (IOException exc) {
