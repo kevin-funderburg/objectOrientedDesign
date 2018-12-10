@@ -29,135 +29,120 @@ public class MyQueue {
         } catch (IOException exc) {
             System.out.println("I/O error" + exc);
         }
-//        } finally {
-//            try {
-//                fr.close();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
 
-//        }
-            for (int x = 0; x < 3; x++)
-            {
-                out("*****************************************\n" +
-                        "************** TEST CASE " + (x + 1) + " **************\n" +
-                        "*****************************************\n", fr);
+        // Loop 3 times to create test cases
+        for (int x = 0; x < 3; x++)
+        {
+            out("*****************************************\n" +
+                    "************** TEST CASE " + (x + 1) + " **************\n" +
+                    "*****************************************\n", fr);
 
-                int POPULATION;     // Number of people boarding
+            int POPULATION;     // Number of people boarding
 
-                // 3 test cases
-                switch (x) {
-                    case 0:
-                        POPULATION = 50;
-                        break;
-                    case 1:
-                        POPULATION = 20;
-                        break;
-                    default:
-                        POPULATION = 30;
-                        break;
-                }
-
-                int capacityA = (int) (POPULATION * .7);   // queue A capacity
-                int capacityB = POPULATION - capacityA;     // queue B capacity
-                int busyTime = 0;                           // time that the checker is busy
-
-                float times[] = new float[POPULATION];      // array of processing times per person
-                float currentTime = 0;
-                Random rand = new Random();
-
-                char theQ;                                  // which queue a person is added to
-
-                ArrayBlockingQueue<Integer> queueA = new ArrayBlockingQueue<Integer>(capacityA);
-                ArrayBlockingQueue<Integer> queueB = new ArrayBlockingQueue<Integer>(capacityB);
-                ArrayBlockingQueue<Integer> queueC = new ArrayBlockingQueue<Integer>(POPULATION);
-
-                /**
-                 * Queues A and B are filled
-                 */
-                for (int i = 0; i < POPULATION; i++)
-                {
-                    // assign a time (in seconds) that a person arrives
-                    if (i == 0)
-                        times[i] = 0;
-                    else
-                        times[i] = (rand.nextInt(15) + 1);
-
-                    currentTime += times[i];
-
-                    // Enqueue the person in queue A or B
-                    theQ = randomQ(queueA, queueB, "add");
-
-                    if (theQ == 'A')
-                        queueA.add(i);
-                    else
-                        queueB.add(i);
-
-                    out("[time: " + currentTime + "] \tperson " + (i + 1) + "\tq'd at [" + theQ +
-                            "] - q sizes: [A]: " + queueA.size() + " \t[B]: " + queueB.size() + " \t[C]: "
-                            + queueC.size() + "\n", fr);
-                }
-                out("\n", fr);
-
-                /**
-                 * Now each person is removed from queue A or B and added to queue C
-                 */
-                for (int i = 0; i < POPULATION; i++)
-                {
-                    // Dequeue the person from queue A or B
-                    theQ = randomQ(queueA, queueB, "remove");
-
-                    if (theQ == 'A') {
-                        if (queueA.size() > 0) {
-                            busyTime = getBusyTime(queueA);
-                            queueA.remove();
-                        }
-                    } else {
-                        if (queueB.size() > 0) {
-                            busyTime = getBusyTime(queueB);
-                            queueB.remove();
-                        }
-                    }
-
-                    // Calculate total processing time for person in first queue
-                    currentTime += busyTime;
-                    queueC.add(i);  // Enqueue
-                    out("[time: " + currentTime + "]\tperson " + (i + 1) + "\tdq'd from [" + theQ + "] in "
-                            + busyTime + "s busy time then q'd at [C] - q sizes: [A]: " +
-                            queueA.size() + "\t [B]: " + queueB.size() + "\t [C]: " + queueC.size() + "\n", fr);
-                }
-                out("\n", fr);
-
-                /**
-                 * Now queue C is processed until completion
-                 */
-                for (int i = 0; i < POPULATION; i++)
-                {
-                    busyTime = getBusyTime(queueC);
-                    currentTime += busyTime;
-                    queueC.remove();  // Dequeue
-                    out("[time: " + currentTime + "]\tperson " + (i + 1) + " finished processing - dq'd " +
-                            "from [C] in " + busyTime + "s busy time - q sizes: [A]: " + queueA.size() +
-                            " \t[B]: " + queueB.size() + " \t[C]: " + queueC.size() + "\n", fr);
-                }
-
-                out("\ntotal process-time = " + currentTime + "\n\n", fr);
+            // 3 test cases
+            switch (x) {
+                case 0:
+                    POPULATION = 50;
+                    break;
+                case 1:
+                    POPULATION = 20;
+                    break;
+                default:
+                    POPULATION = 30;
+                    break;
             }
+
+            int capacityA = (int) (POPULATION * .7);   // queue A capacity
+            int capacityB = POPULATION - capacityA;     // queue B capacity
+            int busyTime = 0;                           // time that the checker is busy
+
+            float times[] = new float[POPULATION];      // array of processing times per person
+            float currentTime = 0;
+            Random rand = new Random();
+
+            char theQ;                                  // which queue a person is added to
+
+            ArrayBlockingQueue<Integer> queueA = new ArrayBlockingQueue<Integer>(capacityA);
+            ArrayBlockingQueue<Integer> queueB = new ArrayBlockingQueue<Integer>(capacityB);
+            ArrayBlockingQueue<Integer> queueC = new ArrayBlockingQueue<Integer>(POPULATION);
+
+            /**
+             * Queues A and B are filled
+             */
+            for (int i = 0; i < POPULATION; i++)
+            {
+                // assign a time (in seconds) that a person arrives
+                if (i == 0)
+                    times[i] = 0;
+                else
+                    times[i] = (rand.nextInt(15) + 1);
+
+                currentTime += times[i];
+
+                // Enqueue the person in queue A or B
+                theQ = randomQ(queueA, queueB, "add");
+
+                if (theQ == 'A')
+                    queueA.add(i);
+                else
+                    queueB.add(i);
+
+                out("[time: " + currentTime + "] \tperson " + (i + 1) + "\tq'd at [" + theQ +
+                        "] - q sizes: [A]: " + queueA.size() + " \t[B]: " + queueB.size() + " \t[C]: "
+                        + queueC.size() + "\n", fr);
+            }
+            out("\n", fr);
+
+            /**
+             * Now each person is removed from queue A or B and added to queue C
+             */
+            for (int i = 0; i < POPULATION; i++)
+            {
+                // Dequeue the person from queue A or B
+                theQ = randomQ(queueA, queueB, "remove");
+
+                if (theQ == 'A') {
+                    if (queueA.size() > 0) {
+                        busyTime = getBusyTime(queueA);
+                        queueA.remove();
+                    }
+                } else {
+                    if (queueB.size() > 0) {
+                        busyTime = getBusyTime(queueB);
+                        queueB.remove();
+                    }
+                }
+
+                // Calculate total processing time for person in first queue
+                currentTime += busyTime;
+                queueC.add(i);  // Enqueue
+                out("[time: " + currentTime + "]\tperson " + (i + 1) + "\tdq'd from [" + theQ + "] in "
+                        + busyTime + "s busy time then q'd at [C] - q sizes: [A]: " +
+                        queueA.size() + "\t [B]: " + queueB.size() + "\t [C]: " + queueC.size() + "\n", fr);
+            }
+            out("\n", fr);
+
+            /**
+             * Now queue C is processed until completion
+             */
+            for (int i = 0; i < POPULATION; i++)
+            {
+                busyTime = getBusyTime(queueC);
+                currentTime += busyTime;
+                queueC.remove();  // Dequeue
+                out("[time: " + currentTime + "]\tperson " + (i + 1) + " finished processing - dq'd " +
+                        "from [C] in " + busyTime + "s busy time - q sizes: [A]: " + queueA.size() +
+                        " \t[B]: " + queueB.size() + " \t[C]: " + queueC.size() + "\n", fr);
+            }
+
+            out("\ntotal process-time = " + currentTime + "\n\n", fr);
+        }
 
         try {
             fr.close();
         } catch (IOException e) {
-                e.printStackTrace();
-            }
-//        } catch (IOException exc) {
-//            System.out.println("I/O error" + exc);
-//        } finally {
-//            try {
-//                fr.close();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
+            e.printStackTrace();
+        }
     }
 
 
