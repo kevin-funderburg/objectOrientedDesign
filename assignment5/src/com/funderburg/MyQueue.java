@@ -19,7 +19,8 @@ public class MyQueue {
     public static void main(String[] args) {
 
         // These variables are just for writing output
-        String currDir = "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Object Oriented Design/Projects/assignment5/src/com/funderburg/",
+        String currDir = "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Object Oriented Design/" +
+                "Projects/assignment5/src/com/funderburg/",
                 outPath = currDir + "output.txt";
         File file = new File(outPath);
         FileWriter fr = null;
@@ -52,7 +53,7 @@ public class MyQueue {
                     break;
             }
 
-            int capacityA = (int) (POPULATION * .7);   // queue A capacity
+            int capacityA = (int) (POPULATION * .7);    // queue A capacity
             int capacityB = POPULATION - capacityA;     // queue B capacity
             int busyTime = 0;                           // time that the checker is busy
 
@@ -81,7 +82,6 @@ public class MyQueue {
 
                 // Enqueue the person in queue A or B
                 theQ = randomQ(queueA, queueB, "add");
-
                 if (theQ == 'A')
                     queueA.add(i);
                 else
