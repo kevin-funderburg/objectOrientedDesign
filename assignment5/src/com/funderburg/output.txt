@@ -1,0 +1,324 @@
+*****************************************
+************** TEST CASE 1 **************
+*****************************************
+[time: 0.0] 	person 1	q'd at [A] - q sizes: [A]: 1 	[B]: 0 	[C]: 0
+[time: 7.0] 	person 2	q'd at [B] - q sizes: [A]: 1 	[B]: 1 	[C]: 0
+[time: 16.0] 	person 3	q'd at [A] - q sizes: [A]: 2 	[B]: 1 	[C]: 0
+[time: 24.0] 	person 4	q'd at [A] - q sizes: [A]: 3 	[B]: 1 	[C]: 0
+[time: 26.0] 	person 5	q'd at [B] - q sizes: [A]: 3 	[B]: 2 	[C]: 0
+[time: 39.0] 	person 6	q'd at [A] - q sizes: [A]: 4 	[B]: 2 	[C]: 0
+[time: 54.0] 	person 7	q'd at [A] - q sizes: [A]: 5 	[B]: 2 	[C]: 0
+[time: 59.0] 	person 8	q'd at [B] - q sizes: [A]: 5 	[B]: 3 	[C]: 0
+[time: 69.0] 	person 9	q'd at [B] - q sizes: [A]: 5 	[B]: 4 	[C]: 0
+[time: 75.0] 	person 10	q'd at [B] - q sizes: [A]: 5 	[B]: 5 	[C]: 0
+[time: 90.0] 	person 11	q'd at [A] - q sizes: [A]: 6 	[B]: 5 	[C]: 0
+[time: 103.0] 	person 12	q'd at [B] - q sizes: [A]: 6 	[B]: 6 	[C]: 0
+[time: 118.0] 	person 13	q'd at [A] - q sizes: [A]: 7 	[B]: 6 	[C]: 0
+[time: 128.0] 	person 14	q'd at [A] - q sizes: [A]: 8 	[B]: 6 	[C]: 0
+[time: 138.0] 	person 15	q'd at [A] - q sizes: [A]: 9 	[B]: 6 	[C]: 0
+[time: 153.0] 	person 16	q'd at [A] - q sizes: [A]: 10 	[B]: 6 	[C]: 0
+[time: 163.0] 	person 17	q'd at [B] - q sizes: [A]: 10 	[B]: 7 	[C]: 0
+[time: 174.0] 	person 18	q'd at [A] - q sizes: [A]: 11 	[B]: 7 	[C]: 0
+[time: 176.0] 	person 19	q'd at [B] - q sizes: [A]: 11 	[B]: 8 	[C]: 0
+[time: 183.0] 	person 20	q'd at [A] - q sizes: [A]: 12 	[B]: 8 	[C]: 0
+[time: 198.0] 	person 21	q'd at [A] - q sizes: [A]: 13 	[B]: 8 	[C]: 0
+[time: 205.0] 	person 22	q'd at [B] - q sizes: [A]: 13 	[B]: 9 	[C]: 0
+[time: 206.0] 	person 23	q'd at [B] - q sizes: [A]: 13 	[B]: 10 	[C]: 0
+[time: 210.0] 	person 24	q'd at [B] - q sizes: [A]: 13 	[B]: 11 	[C]: 0
+[time: 220.0] 	person 25	q'd at [A] - q sizes: [A]: 14 	[B]: 11 	[C]: 0
+[time: 222.0] 	person 26	q'd at [A] - q sizes: [A]: 15 	[B]: 11 	[C]: 0
+[time: 237.0] 	person 27	q'd at [B] - q sizes: [A]: 15 	[B]: 12 	[C]: 0
+[time: 238.0] 	person 28	q'd at [A] - q sizes: [A]: 16 	[B]: 12 	[C]: 0
+[time: 248.0] 	person 29	q'd at [A] - q sizes: [A]: 17 	[B]: 12 	[C]: 0
+[time: 253.0] 	person 30	q'd at [B] - q sizes: [A]: 17 	[B]: 13 	[C]: 0
+[time: 259.0] 	person 31	q'd at [B] - q sizes: [A]: 17 	[B]: 14 	[C]: 0
+[time: 266.0] 	person 32	q'd at [B] - q sizes: [A]: 17 	[B]: 15 	[C]: 0
+[time: 268.0] 	person 33	q'd at [A] - q sizes: [A]: 18 	[B]: 15 	[C]: 0
+[time: 279.0] 	person 34	q'd at [A] - q sizes: [A]: 19 	[B]: 15 	[C]: 0
+[time: 286.0] 	person 35	q'd at [A] - q sizes: [A]: 20 	[B]: 15 	[C]: 0
+[time: 289.0] 	person 36	q'd at [A] - q sizes: [A]: 21 	[B]: 15 	[C]: 0
+[time: 294.0] 	person 37	q'd at [A] - q sizes: [A]: 22 	[B]: 15 	[C]: 0
+[time: 302.0] 	person 38	q'd at [A] - q sizes: [A]: 23 	[B]: 15 	[C]: 0
+[time: 313.0] 	person 39	q'd at [A] - q sizes: [A]: 24 	[B]: 15 	[C]: 0
+[time: 324.0] 	person 40	q'd at [A] - q sizes: [A]: 25 	[B]: 15 	[C]: 0
+[time: 330.0] 	person 41	q'd at [A] - q sizes: [A]: 26 	[B]: 15 	[C]: 0
+[time: 339.0] 	person 42	q'd at [A] - q sizes: [A]: 27 	[B]: 15 	[C]: 0
+[time: 353.0] 	person 43	q'd at [A] - q sizes: [A]: 28 	[B]: 15 	[C]: 0
+[time: 366.0] 	person 44	q'd at [A] - q sizes: [A]: 29 	[B]: 15 	[C]: 0
+[time: 375.0] 	person 45	q'd at [A] - q sizes: [A]: 30 	[B]: 15 	[C]: 0
+[time: 378.0] 	person 46	q'd at [A] - q sizes: [A]: 31 	[B]: 15 	[C]: 0
+[time: 379.0] 	person 47	q'd at [A] - q sizes: [A]: 32 	[B]: 15 	[C]: 0
+[time: 393.0] 	person 48	q'd at [A] - q sizes: [A]: 33 	[B]: 15 	[C]: 0
+[time: 404.0] 	person 49	q'd at [A] - q sizes: [A]: 34 	[B]: 15 	[C]: 0
+[time: 414.0] 	person 50	q'd at [A] - q sizes: [A]: 35 	[B]: 15 	[C]: 0
+
+[time: 1224.0]	person 1	dq'd from [B] in 810s busy time then q'd at [C] - q sizes: [A]: 35	 [B]: 14	 [C]: 1
+[time: 2064.0]	person 2	dq'd from [B] in 840s busy time then q'd at [C] - q sizes: [A]: 35	 [B]: 13	 [C]: 2
+[time: 2844.0]	person 3	dq'd from [B] in 780s busy time then q'd at [C] - q sizes: [A]: 35	 [B]: 12	 [C]: 3
+[time: 3654.0]	person 4	dq'd from [A] in 810s busy time then q'd at [C] - q sizes: [A]: 34	 [B]: 12	 [C]: 4
+[time: 4374.0]	person 5	dq'd from [B] in 720s busy time then q'd at [C] - q sizes: [A]: 34	 [B]: 11	 [C]: 5
+[time: 5248.0]	person 6	dq'd from [A] in 874s busy time then q'd at [C] - q sizes: [A]: 33	 [B]: 11	 [C]: 6
+[time: 5908.0]	person 7	dq'd from [B] in 660s busy time then q'd at [C] - q sizes: [A]: 33	 [B]: 10	 [C]: 7
+[time: 6508.0]	person 8	dq'd from [B] in 600s busy time then q'd at [C] - q sizes: [A]: 33	 [B]: 9	 [C]: 8
+[time: 7356.0]	person 9	dq'd from [A] in 848s busy time then q'd at [C] - q sizes: [A]: 32	 [B]: 9	 [C]: 9
+[time: 7896.0]	person 10	dq'd from [B] in 540s busy time then q'd at [C] - q sizes: [A]: 32	 [B]: 8	 [C]: 10
+[time: 8718.0]	person 11	dq'd from [A] in 822s busy time then q'd at [C] - q sizes: [A]: 31	 [B]: 8	 [C]: 11
+[time: 9198.0]	person 12	dq'd from [B] in 480s busy time then q'd at [C] - q sizes: [A]: 31	 [B]: 7	 [C]: 12
+[time: 9995.0]	person 13	dq'd from [A] in 797s busy time then q'd at [C] - q sizes: [A]: 30	 [B]: 7	 [C]: 13
+[time: 10415.0]	person 14	dq'd from [B] in 420s busy time then q'd at [C] - q sizes: [A]: 30	 [B]: 6	 [C]: 14
+[time: 11186.0]	person 15	dq'd from [A] in 771s busy time then q'd at [C] - q sizes: [A]: 29	 [B]: 6	 [C]: 15
+[time: 11546.0]	person 16	dq'd from [B] in 360s busy time then q'd at [C] - q sizes: [A]: 29	 [B]: 5	 [C]: 16
+[time: 11846.0]	person 17	dq'd from [B] in 300s busy time then q'd at [C] - q sizes: [A]: 29	 [B]: 4	 [C]: 17
+[time: 12086.0]	person 18	dq'd from [B] in 240s busy time then q'd at [C] - q sizes: [A]: 29	 [B]: 3	 [C]: 18
+[time: 12831.0]	person 19	dq'd from [A] in 745s busy time then q'd at [C] - q sizes: [A]: 28	 [B]: 3	 [C]: 19
+[time: 13011.0]	person 20	dq'd from [B] in 180s busy time then q'd at [C] - q sizes: [A]: 28	 [B]: 2	 [C]: 20
+[time: 13131.0]	person 21	dq'd from [B] in 120s busy time then q'd at [C] - q sizes: [A]: 28	 [B]: 1	 [C]: 21
+[time: 13851.0]	person 22	dq'd from [A] in 720s busy time then q'd at [C] - q sizes: [A]: 27	 [B]: 1	 [C]: 22
+[time: 13911.0]	person 23	dq'd from [B] in 60s busy time then q'd at [C] - q sizes: [A]: 27	 [B]: 0	 [C]: 23
+[time: 14605.0]	person 24	dq'd from [A] in 694s busy time then q'd at [C] - q sizes: [A]: 26	 [B]: 0	 [C]: 24
+[time: 15273.0]	person 25	dq'd from [A] in 668s busy time then q'd at [C] - q sizes: [A]: 25	 [B]: 0	 [C]: 25
+[time: 15915.0]	person 26	dq'd from [A] in 642s busy time then q'd at [C] - q sizes: [A]: 24	 [B]: 0	 [C]: 26
+[time: 16532.0]	person 27	dq'd from [A] in 617s busy time then q'd at [C] - q sizes: [A]: 23	 [B]: 0	 [C]: 27
+[time: 17123.0]	person 28	dq'd from [A] in 591s busy time then q'd at [C] - q sizes: [A]: 22	 [B]: 0	 [C]: 28
+[time: 17688.0]	person 29	dq'd from [A] in 565s busy time then q'd at [C] - q sizes: [A]: 21	 [B]: 0	 [C]: 29
+[time: 18228.0]	person 30	dq'd from [A] in 540s busy time then q'd at [C] - q sizes: [A]: 20	 [B]: 0	 [C]: 30
+[time: 18742.0]	person 31	dq'd from [A] in 514s busy time then q'd at [C] - q sizes: [A]: 19	 [B]: 0	 [C]: 31
+[time: 19230.0]	person 32	dq'd from [A] in 488s busy time then q'd at [C] - q sizes: [A]: 18	 [B]: 0	 [C]: 32
+[time: 19692.0]	person 33	dq'd from [A] in 462s busy time then q'd at [C] - q sizes: [A]: 17	 [B]: 0	 [C]: 33
+[time: 20129.0]	person 34	dq'd from [A] in 437s busy time then q'd at [C] - q sizes: [A]: 16	 [B]: 0	 [C]: 34
+[time: 20540.0]	person 35	dq'd from [A] in 411s busy time then q'd at [C] - q sizes: [A]: 15	 [B]: 0	 [C]: 35
+[time: 20925.0]	person 36	dq'd from [A] in 385s busy time then q'd at [C] - q sizes: [A]: 14	 [B]: 0	 [C]: 36
+[time: 21285.0]	person 37	dq'd from [A] in 360s busy time then q'd at [C] - q sizes: [A]: 13	 [B]: 0	 [C]: 37
+[time: 21619.0]	person 38	dq'd from [A] in 334s busy time then q'd at [C] - q sizes: [A]: 12	 [B]: 0	 [C]: 38
+[time: 21927.0]	person 39	dq'd from [A] in 308s busy time then q'd at [C] - q sizes: [A]: 11	 [B]: 0	 [C]: 39
+[time: 22209.0]	person 40	dq'd from [A] in 282s busy time then q'd at [C] - q sizes: [A]: 10	 [B]: 0	 [C]: 40
+[time: 22466.0]	person 41	dq'd from [A] in 257s busy time then q'd at [C] - q sizes: [A]: 9	 [B]: 0	 [C]: 41
+[time: 22697.0]	person 42	dq'd from [A] in 231s busy time then q'd at [C] - q sizes: [A]: 8	 [B]: 0	 [C]: 42
+[time: 22902.0]	person 43	dq'd from [A] in 205s busy time then q'd at [C] - q sizes: [A]: 7	 [B]: 0	 [C]: 43
+[time: 23082.0]	person 44	dq'd from [A] in 180s busy time then q'd at [C] - q sizes: [A]: 6	 [B]: 0	 [C]: 44
+[time: 23236.0]	person 45	dq'd from [A] in 154s busy time then q'd at [C] - q sizes: [A]: 5	 [B]: 0	 [C]: 45
+[time: 23364.0]	person 46	dq'd from [A] in 128s busy time then q'd at [C] - q sizes: [A]: 4	 [B]: 0	 [C]: 46
+[time: 23466.0]	person 47	dq'd from [A] in 102s busy time then q'd at [C] - q sizes: [A]: 3	 [B]: 0	 [C]: 47
+[time: 23543.0]	person 48	dq'd from [A] in 77s busy time then q'd at [C] - q sizes: [A]: 2	 [B]: 0	 [C]: 48
+[time: 23594.0]	person 49	dq'd from [A] in 51s busy time then q'd at [C] - q sizes: [A]: 1	 [B]: 0	 [C]: 49
+[time: 23619.0]	person 50	dq'd from [A] in 25s busy time then q'd at [C] - q sizes: [A]: 0	 [B]: 0	 [C]: 50
+
+[time: 24429.0]	person 1 finished processing - dq'd from [C] in 810s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 49
+[time: 25311.0]	person 2 finished processing - dq'd from [C] in 882s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 48
+[time: 26174.0]	person 3 finished processing - dq'd from [C] in 863s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 47
+[time: 27019.0]	person 4 finished processing - dq'd from [C] in 845s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 46
+[time: 27847.0]	person 5 finished processing - dq'd from [C] in 828s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 45
+[time: 28656.0]	person 6 finished processing - dq'd from [C] in 809s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 44
+[time: 29447.0]	person 7 finished processing - dq'd from [C] in 791s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 43
+[time: 30221.0]	person 8 finished processing - dq'd from [C] in 774s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 42
+[time: 30976.0]	person 9 finished processing - dq'd from [C] in 755s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 41
+[time: 31713.0]	person 10 finished processing - dq'd from [C] in 737s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 40
+[time: 32433.0]	person 11 finished processing - dq'd from [C] in 720s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 39
+[time: 33134.0]	person 12 finished processing - dq'd from [C] in 701s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 38
+[time: 33817.0]	person 13 finished processing - dq'd from [C] in 683s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 37
+[time: 34483.0]	person 14 finished processing - dq'd from [C] in 666s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 36
+[time: 35131.0]	person 15 finished processing - dq'd from [C] in 648s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 35
+[time: 35760.0]	person 16 finished processing - dq'd from [C] in 629s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 34
+[time: 36372.0]	person 17 finished processing - dq'd from [C] in 612s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 33
+[time: 36966.0]	person 18 finished processing - dq'd from [C] in 594s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 32
+[time: 37541.0]	person 19 finished processing - dq'd from [C] in 575s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 31
+[time: 38099.0]	person 20 finished processing - dq'd from [C] in 558s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 30
+[time: 38639.0]	person 21 finished processing - dq'd from [C] in 540s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 29
+[time: 39160.0]	person 22 finished processing - dq'd from [C] in 521s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 28
+[time: 39664.0]	person 23 finished processing - dq'd from [C] in 504s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 27
+[time: 40150.0]	person 24 finished processing - dq'd from [C] in 486s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 26
+[time: 40617.0]	person 25 finished processing - dq'd from [C] in 467s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 25
+[time: 41067.0]	person 26 finished processing - dq'd from [C] in 450s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 24
+[time: 41498.0]	person 27 finished processing - dq'd from [C] in 431s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 23
+[time: 41912.0]	person 28 finished processing - dq'd from [C] in 414s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 22
+[time: 42307.0]	person 29 finished processing - dq'd from [C] in 395s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 21
+[time: 42684.0]	person 30 finished processing - dq'd from [C] in 377s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 20
+[time: 43044.0]	person 31 finished processing - dq'd from [C] in 360s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 19
+[time: 43385.0]	person 32 finished processing - dq'd from [C] in 341s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 18
+[time: 43709.0]	person 33 finished processing - dq'd from [C] in 324s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 17
+[time: 44015.0]	person 34 finished processing - dq'd from [C] in 306s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 16
+[time: 44302.0]	person 35 finished processing - dq'd from [C] in 287s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 15
+[time: 44572.0]	person 36 finished processing - dq'd from [C] in 270s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 14
+[time: 44824.0]	person 37 finished processing - dq'd from [C] in 252s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 13
+[time: 45057.0]	person 38 finished processing - dq'd from [C] in 233s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 12
+[time: 45272.0]	person 39 finished processing - dq'd from [C] in 215s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 11
+[time: 45469.0]	person 40 finished processing - dq'd from [C] in 197s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 10
+[time: 45649.0]	person 41 finished processing - dq'd from [C] in 180s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 9
+[time: 45811.0]	person 42 finished processing - dq'd from [C] in 162s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 8
+[time: 45954.0]	person 43 finished processing - dq'd from [C] in 143s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 7
+[time: 46080.0]	person 44 finished processing - dq'd from [C] in 126s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 6
+[time: 46187.0]	person 45 finished processing - dq'd from [C] in 107s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 5
+[time: 46277.0]	person 46 finished processing - dq'd from [C] in 90s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 4
+[time: 46348.0]	person 47 finished processing - dq'd from [C] in 71s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 3
+[time: 46401.0]	person 48 finished processing - dq'd from [C] in 53s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 2
+[time: 46436.0]	person 49 finished processing - dq'd from [C] in 35s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 1
+[time: 46453.0]	person 50 finished processing - dq'd from [C] in 17s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 0
+
+total process-time = 46453.0
+
+*****************************************
+************** TEST CASE 2 **************
+*****************************************
+[time: 0.0] 	person 1	q'd at [B] - q sizes: [A]: 0 	[B]: 1 	[C]: 0
+[time: 5.0] 	person 2	q'd at [B] - q sizes: [A]: 0 	[B]: 2 	[C]: 0
+[time: 10.0] 	person 3	q'd at [A] - q sizes: [A]: 1 	[B]: 2 	[C]: 0
+[time: 12.0] 	person 4	q'd at [A] - q sizes: [A]: 2 	[B]: 2 	[C]: 0
+[time: 26.0] 	person 5	q'd at [A] - q sizes: [A]: 3 	[B]: 2 	[C]: 0
+[time: 32.0] 	person 6	q'd at [B] - q sizes: [A]: 3 	[B]: 3 	[C]: 0
+[time: 38.0] 	person 7	q'd at [A] - q sizes: [A]: 4 	[B]: 3 	[C]: 0
+[time: 45.0] 	person 8	q'd at [B] - q sizes: [A]: 4 	[B]: 4 	[C]: 0
+[time: 58.0] 	person 9	q'd at [A] - q sizes: [A]: 5 	[B]: 4 	[C]: 0
+[time: 61.0] 	person 10	q'd at [B] - q sizes: [A]: 5 	[B]: 5 	[C]: 0
+[time: 71.0] 	person 11	q'd at [B] - q sizes: [A]: 5 	[B]: 6 	[C]: 0
+[time: 73.0] 	person 12	q'd at [A] - q sizes: [A]: 6 	[B]: 6 	[C]: 0
+[time: 74.0] 	person 13	q'd at [A] - q sizes: [A]: 7 	[B]: 6 	[C]: 0
+[time: 84.0] 	person 14	q'd at [A] - q sizes: [A]: 8 	[B]: 6 	[C]: 0
+[time: 85.0] 	person 15	q'd at [A] - q sizes: [A]: 9 	[B]: 6 	[C]: 0
+[time: 93.0] 	person 16	q'd at [A] - q sizes: [A]: 10 	[B]: 6 	[C]: 0
+[time: 97.0] 	person 17	q'd at [A] - q sizes: [A]: 11 	[B]: 6 	[C]: 0
+[time: 103.0] 	person 18	q'd at [A] - q sizes: [A]: 12 	[B]: 6 	[C]: 0
+[time: 104.0] 	person 19	q'd at [A] - q sizes: [A]: 13 	[B]: 6 	[C]: 0
+[time: 118.0] 	person 20	q'd at [A] - q sizes: [A]: 14 	[B]: 6 	[C]: 0
+
+[time: 928.0]	person 1	dq'd from [A] in 810s busy time then q'd at [C] - q sizes: [A]: 13	 [B]: 6	 [C]: 1
+[time: 1763.0]	person 2	dq'd from [A] in 835s busy time then q'd at [C] - q sizes: [A]: 12	 [B]: 6	 [C]: 2
+[time: 2534.0]	person 3	dq'd from [A] in 771s busy time then q'd at [C] - q sizes: [A]: 11	 [B]: 6	 [C]: 3
+[time: 3241.0]	person 4	dq'd from [A] in 707s busy time then q'd at [C] - q sizes: [A]: 10	 [B]: 6	 [C]: 4
+[time: 3883.0]	person 5	dq'd from [A] in 642s busy time then q'd at [C] - q sizes: [A]: 9	 [B]: 6	 [C]: 5
+[time: 4693.0]	person 6	dq'd from [B] in 810s busy time then q'd at [C] - q sizes: [A]: 9	 [B]: 5	 [C]: 6
+[time: 5271.0]	person 7	dq'd from [A] in 578s busy time then q'd at [C] - q sizes: [A]: 8	 [B]: 5	 [C]: 7
+[time: 5785.0]	person 8	dq'd from [A] in 514s busy time then q'd at [C] - q sizes: [A]: 7	 [B]: 5	 [C]: 8
+[time: 6534.0]	person 9	dq'd from [B] in 749s busy time then q'd at [C] - q sizes: [A]: 7	 [B]: 4	 [C]: 9
+[time: 7134.0]	person 10	dq'd from [B] in 600s busy time then q'd at [C] - q sizes: [A]: 7	 [B]: 3	 [C]: 10
+[time: 7584.0]	person 11	dq'd from [B] in 450s busy time then q'd at [C] - q sizes: [A]: 7	 [B]: 2	 [C]: 11
+[time: 8034.0]	person 12	dq'd from [A] in 450s busy time then q'd at [C] - q sizes: [A]: 6	 [B]: 2	 [C]: 12
+[time: 8419.0]	person 13	dq'd from [A] in 385s busy time then q'd at [C] - q sizes: [A]: 5	 [B]: 2	 [C]: 13
+[time: 8740.0]	person 14	dq'd from [A] in 321s busy time then q'd at [C] - q sizes: [A]: 4	 [B]: 2	 [C]: 14
+[time: 9040.0]	person 15	dq'd from [B] in 300s busy time then q'd at [C] - q sizes: [A]: 4	 [B]: 1	 [C]: 15
+[time: 9297.0]	person 16	dq'd from [A] in 257s busy time then q'd at [C] - q sizes: [A]: 3	 [B]: 1	 [C]: 16
+[time: 9447.0]	person 17	dq'd from [B] in 150s busy time then q'd at [C] - q sizes: [A]: 3	 [B]: 0	 [C]: 17
+[time: 9639.0]	person 18	dq'd from [A] in 192s busy time then q'd at [C] - q sizes: [A]: 2	 [B]: 0	 [C]: 18
+[time: 9767.0]	person 19	dq'd from [A] in 128s busy time then q'd at [C] - q sizes: [A]: 1	 [B]: 0	 [C]: 19
+[time: 9831.0]	person 20	dq'd from [A] in 64s busy time then q'd at [C] - q sizes: [A]: 0	 [B]: 0	 [C]: 20
+
+[time: 10641.0]	person 1 finished processing - dq'd from [C] in 810s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 19
+[time: 11495.0]	person 2 finished processing - dq'd from [C] in 854s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 18
+[time: 12304.0]	person 3 finished processing - dq'd from [C] in 809s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 17
+[time: 13069.0]	person 4 finished processing - dq'd from [C] in 765s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 16
+[time: 13789.0]	person 5 finished processing - dq'd from [C] in 720s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 15
+[time: 14464.0]	person 6 finished processing - dq'd from [C] in 675s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 14
+[time: 15093.0]	person 7 finished processing - dq'd from [C] in 629s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 13
+[time: 15677.0]	person 8 finished processing - dq'd from [C] in 584s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 12
+[time: 16217.0]	person 9 finished processing - dq'd from [C] in 540s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 11
+[time: 16712.0]	person 10 finished processing - dq'd from [C] in 495s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 10
+[time: 17162.0]	person 11 finished processing - dq'd from [C] in 450s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 9
+[time: 17566.0]	person 12 finished processing - dq'd from [C] in 404s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 8
+[time: 17926.0]	person 13 finished processing - dq'd from [C] in 360s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 7
+[time: 18240.0]	person 14 finished processing - dq'd from [C] in 314s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 6
+[time: 18510.0]	person 15 finished processing - dq'd from [C] in 270s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 5
+[time: 18735.0]	person 16 finished processing - dq'd from [C] in 225s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 4
+[time: 18915.0]	person 17 finished processing - dq'd from [C] in 180s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 3
+[time: 19050.0]	person 18 finished processing - dq'd from [C] in 135s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 2
+[time: 19140.0]	person 19 finished processing - dq'd from [C] in 90s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 1
+[time: 19185.0]	person 20 finished processing - dq'd from [C] in 45s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 0
+
+total process-time = 19185.0
+
+*****************************************
+************** TEST CASE 3 **************
+*****************************************
+[time: 0.0] 	person 1	q'd at [B] - q sizes: [A]: 0 	[B]: 1 	[C]: 0
+[time: 9.0] 	person 2	q'd at [B] - q sizes: [A]: 0 	[B]: 2 	[C]: 0
+[time: 13.0] 	person 3	q'd at [A] - q sizes: [A]: 1 	[B]: 2 	[C]: 0
+[time: 14.0] 	person 4	q'd at [B] - q sizes: [A]: 1 	[B]: 3 	[C]: 0
+[time: 16.0] 	person 5	q'd at [B] - q sizes: [A]: 1 	[B]: 4 	[C]: 0
+[time: 19.0] 	person 6	q'd at [A] - q sizes: [A]: 2 	[B]: 4 	[C]: 0
+[time: 31.0] 	person 7	q'd at [B] - q sizes: [A]: 2 	[B]: 5 	[C]: 0
+[time: 45.0] 	person 8	q'd at [A] - q sizes: [A]: 3 	[B]: 5 	[C]: 0
+[time: 52.0] 	person 9	q'd at [A] - q sizes: [A]: 4 	[B]: 5 	[C]: 0
+[time: 54.0] 	person 10	q'd at [B] - q sizes: [A]: 4 	[B]: 6 	[C]: 0
+[time: 69.0] 	person 11	q'd at [A] - q sizes: [A]: 5 	[B]: 6 	[C]: 0
+[time: 80.0] 	person 12	q'd at [B] - q sizes: [A]: 5 	[B]: 7 	[C]: 0
+[time: 93.0] 	person 13	q'd at [B] - q sizes: [A]: 5 	[B]: 8 	[C]: 0
+[time: 96.0] 	person 14	q'd at [B] - q sizes: [A]: 5 	[B]: 9 	[C]: 0
+[time: 99.0] 	person 15	q'd at [A] - q sizes: [A]: 6 	[B]: 9 	[C]: 0
+[time: 101.0] 	person 16	q'd at [A] - q sizes: [A]: 7 	[B]: 9 	[C]: 0
+[time: 105.0] 	person 17	q'd at [A] - q sizes: [A]: 8 	[B]: 9 	[C]: 0
+[time: 116.0] 	person 18	q'd at [A] - q sizes: [A]: 9 	[B]: 9 	[C]: 0
+[time: 130.0] 	person 19	q'd at [A] - q sizes: [A]: 10 	[B]: 9 	[C]: 0
+[time: 132.0] 	person 20	q'd at [A] - q sizes: [A]: 11 	[B]: 9 	[C]: 0
+[time: 136.0] 	person 21	q'd at [A] - q sizes: [A]: 12 	[B]: 9 	[C]: 0
+[time: 142.0] 	person 22	q'd at [A] - q sizes: [A]: 13 	[B]: 9 	[C]: 0
+[time: 154.0] 	person 23	q'd at [A] - q sizes: [A]: 14 	[B]: 9 	[C]: 0
+[time: 168.0] 	person 24	q'd at [A] - q sizes: [A]: 15 	[B]: 9 	[C]: 0
+[time: 173.0] 	person 25	q'd at [A] - q sizes: [A]: 16 	[B]: 9 	[C]: 0
+[time: 177.0] 	person 26	q'd at [A] - q sizes: [A]: 17 	[B]: 9 	[C]: 0
+[time: 192.0] 	person 27	q'd at [A] - q sizes: [A]: 18 	[B]: 9 	[C]: 0
+[time: 200.0] 	person 28	q'd at [A] - q sizes: [A]: 19 	[B]: 9 	[C]: 0
+[time: 204.0] 	person 29	q'd at [A] - q sizes: [A]: 20 	[B]: 9 	[C]: 0
+[time: 218.0] 	person 30	q'd at [A] - q sizes: [A]: 21 	[B]: 9 	[C]: 0
+
+[time: 1028.0]	person 1	dq'd from [B] in 810s busy time then q'd at [C] - q sizes: [A]: 21	 [B]: 8	 [C]: 1
+[time: 1828.0]	person 2	dq'd from [B] in 800s busy time then q'd at [C] - q sizes: [A]: 21	 [B]: 7	 [C]: 2
+[time: 2638.0]	person 3	dq'd from [A] in 810s busy time then q'd at [C] - q sizes: [A]: 20	 [B]: 7	 [C]: 3
+[time: 3338.0]	person 4	dq'd from [B] in 700s busy time then q'd at [C] - q sizes: [A]: 20	 [B]: 6	 [C]: 4
+[time: 3938.0]	person 5	dq'd from [B] in 600s busy time then q'd at [C] - q sizes: [A]: 20	 [B]: 5	 [C]: 5
+[time: 4438.0]	person 6	dq'd from [B] in 500s busy time then q'd at [C] - q sizes: [A]: 20	 [B]: 4	 [C]: 6
+[time: 5295.0]	person 7	dq'd from [A] in 857s busy time then q'd at [C] - q sizes: [A]: 19	 [B]: 4	 [C]: 7
+[time: 5695.0]	person 8	dq'd from [B] in 400s busy time then q'd at [C] - q sizes: [A]: 19	 [B]: 3	 [C]: 8
+[time: 6509.0]	person 9	dq'd from [A] in 814s busy time then q'd at [C] - q sizes: [A]: 18	 [B]: 3	 [C]: 9
+[time: 6809.0]	person 10	dq'd from [B] in 300s busy time then q'd at [C] - q sizes: [A]: 18	 [B]: 2	 [C]: 10
+[time: 7580.0]	person 11	dq'd from [A] in 771s busy time then q'd at [C] - q sizes: [A]: 17	 [B]: 2	 [C]: 11
+[time: 8308.0]	person 12	dq'd from [A] in 728s busy time then q'd at [C] - q sizes: [A]: 16	 [B]: 2	 [C]: 12
+[time: 8508.0]	person 13	dq'd from [B] in 200s busy time then q'd at [C] - q sizes: [A]: 16	 [B]: 1	 [C]: 13
+[time: 9193.0]	person 14	dq'd from [A] in 685s busy time then q'd at [C] - q sizes: [A]: 15	 [B]: 1	 [C]: 14
+[time: 9293.0]	person 15	dq'd from [B] in 100s busy time then q'd at [C] - q sizes: [A]: 15	 [B]: 0	 [C]: 15
+[time: 9935.0]	person 16	dq'd from [A] in 642s busy time then q'd at [C] - q sizes: [A]: 14	 [B]: 0	 [C]: 16
+[time: 10535.0]	person 17	dq'd from [A] in 600s busy time then q'd at [C] - q sizes: [A]: 13	 [B]: 0	 [C]: 17
+[time: 11092.0]	person 18	dq'd from [A] in 557s busy time then q'd at [C] - q sizes: [A]: 12	 [B]: 0	 [C]: 18
+[time: 11606.0]	person 19	dq'd from [A] in 514s busy time then q'd at [C] - q sizes: [A]: 11	 [B]: 0	 [C]: 19
+[time: 12077.0]	person 20	dq'd from [A] in 471s busy time then q'd at [C] - q sizes: [A]: 10	 [B]: 0	 [C]: 20
+[time: 12505.0]	person 21	dq'd from [A] in 428s busy time then q'd at [C] - q sizes: [A]: 9	 [B]: 0	 [C]: 21
+[time: 12890.0]	person 22	dq'd from [A] in 385s busy time then q'd at [C] - q sizes: [A]: 8	 [B]: 0	 [C]: 22
+[time: 13232.0]	person 23	dq'd from [A] in 342s busy time then q'd at [C] - q sizes: [A]: 7	 [B]: 0	 [C]: 23
+[time: 13532.0]	person 24	dq'd from [A] in 300s busy time then q'd at [C] - q sizes: [A]: 6	 [B]: 0	 [C]: 24
+[time: 13789.0]	person 25	dq'd from [A] in 257s busy time then q'd at [C] - q sizes: [A]: 5	 [B]: 0	 [C]: 25
+[time: 14003.0]	person 26	dq'd from [A] in 214s busy time then q'd at [C] - q sizes: [A]: 4	 [B]: 0	 [C]: 26
+[time: 14174.0]	person 27	dq'd from [A] in 171s busy time then q'd at [C] - q sizes: [A]: 3	 [B]: 0	 [C]: 27
+[time: 14302.0]	person 28	dq'd from [A] in 128s busy time then q'd at [C] - q sizes: [A]: 2	 [B]: 0	 [C]: 28
+[time: 14387.0]	person 29	dq'd from [A] in 85s busy time then q'd at [C] - q sizes: [A]: 1	 [B]: 0	 [C]: 29
+[time: 14429.0]	person 30	dq'd from [A] in 42s busy time then q'd at [C] - q sizes: [A]: 0	 [B]: 0	 [C]: 30
+
+[time: 15239.0]	person 1 finished processing - dq'd from [C] in 810s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 29
+[time: 16108.0]	person 2 finished processing - dq'd from [C] in 869s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 28
+[time: 16948.0]	person 3 finished processing - dq'd from [C] in 840s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 27
+[time: 17757.0]	person 4 finished processing - dq'd from [C] in 809s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 26
+[time: 18537.0]	person 5 finished processing - dq'd from [C] in 780s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 25
+[time: 19286.0]	person 6 finished processing - dq'd from [C] in 749s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 24
+[time: 20006.0]	person 7 finished processing - dq'd from [C] in 720s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 23
+[time: 20695.0]	person 8 finished processing - dq'd from [C] in 689s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 22
+[time: 21355.0]	person 9 finished processing - dq'd from [C] in 660s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 21
+[time: 21984.0]	person 10 finished processing - dq'd from [C] in 629s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 20
+[time: 22584.0]	person 11 finished processing - dq'd from [C] in 600s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 19
+[time: 23153.0]	person 12 finished processing - dq'd from [C] in 569s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 18
+[time: 23693.0]	person 13 finished processing - dq'd from [C] in 540s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 17
+[time: 24202.0]	person 14 finished processing - dq'd from [C] in 509s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 16
+[time: 24682.0]	person 15 finished processing - dq'd from [C] in 480s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 15
+[time: 25132.0]	person 16 finished processing - dq'd from [C] in 450s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 14
+[time: 25552.0]	person 17 finished processing - dq'd from [C] in 420s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 13
+[time: 25942.0]	person 18 finished processing - dq'd from [C] in 390s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 12
+[time: 26302.0]	person 19 finished processing - dq'd from [C] in 360s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 11
+[time: 26632.0]	person 20 finished processing - dq'd from [C] in 330s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 10
+[time: 26932.0]	person 21 finished processing - dq'd from [C] in 300s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 9
+[time: 27202.0]	person 22 finished processing - dq'd from [C] in 270s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 8
+[time: 27442.0]	person 23 finished processing - dq'd from [C] in 240s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 7
+[time: 27652.0]	person 24 finished processing - dq'd from [C] in 210s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 6
+[time: 27832.0]	person 25 finished processing - dq'd from [C] in 180s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 5
+[time: 27982.0]	person 26 finished processing - dq'd from [C] in 150s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 4
+[time: 28102.0]	person 27 finished processing - dq'd from [C] in 120s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 3
+[time: 28192.0]	person 28 finished processing - dq'd from [C] in 90s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 2
+[time: 28252.0]	person 29 finished processing - dq'd from [C] in 60s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 1
+[time: 28282.0]	person 30 finished processing - dq'd from [C] in 30s busy time - q sizes: [A]: 0 	[B]: 0 	[C]: 0
+
+total process-time = 28282.0
+
